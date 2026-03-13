@@ -6,16 +6,12 @@ const PhotoSlider = () => {
   
   // Placeholder images - replace with your actual photos
   const photos = [
-  "https://images.unsplash.com/photo-1627964464837-6328f5931576?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // couple holding hands
-
-  "https://images.unsplash.com/photo-1627964807070-e19d3ca29bdb?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // couple in sunset
-
-  "https://plus.unsplash.com/premium_photo-1661367626996-6e75af974221?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // hugging moment
-
-  "https://plus.unsplash.com/premium_photo-1722686421604-ddcbd5dfa50e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // walking in nature
-  
-  "https://plus.unsplash.com/premium_photo-1658506814710-931319e429b0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  // cozy in the snow
-];
+    "/1.jpg",
+    "/2.jpg",
+    "/3.jpg",
+    "/4.jpg",
+    "/5.jpg"
+  ];
 
 
   const captions = [
