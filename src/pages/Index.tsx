@@ -56,6 +56,12 @@ const Index = () => {
 
   const handleEnterSite = () => {
     setShowIntro(false);
+    // Play audio after user interaction (entering site)
+    const audio = document.querySelector('audio');
+    if (audio) {
+      audio.play().catch(err => console.log("Audio play failed:", err));
+      setMusicPlaying(true);
+    }
   };
 
   const handleSurpriseClick = () => {
@@ -88,13 +94,7 @@ const Index = () => {
       {/* Sweet Quotes */}
       <SweetQuotes />
 
-      {/* Music Control */}
-      <button 
-        onClick={handleMusicToggle}
-        className="fixed top-4 right-4 z-50 bg-pink-500/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-pink-500/30 transition-all duration-300"
-      >
-        {musicPlaying ? '🎵' : '🔇'}
-      </button>
+
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 page-enter">
