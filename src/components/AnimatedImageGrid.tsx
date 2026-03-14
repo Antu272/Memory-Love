@@ -36,32 +36,32 @@ const AnimatedImageGrid: React.FC = () => {
     },
     {
       src: "/14.jpg",
-      caption: "Beautiful Like You",
+      caption: "Forever and Always",
       delay: 1.2
     },
     {
       src: "/15.jpg",
-      caption: "Beautiful Like You",
+      caption: "Deeply in Love",
       delay: 1.4
     },
     {
       src: "/16.jpg",
-      caption: "Beautiful Like You",
+      caption: "Together forever,always",
       delay: 1.6
     },
     {
       src: "/17.jpg",
-      caption: "Beautiful Like You",
+      caption: "Love First",
       delay: 1.8
     },
     {
       src: "/18.jpg",
-      caption: "Beautiful Like You",
+      caption: "Endless Love Story",
       delay: 2.0
     },
     {
       src: "/19.jpg",
-      caption: "Beautiful Like You",
+      caption: "You Complete Me",
       delay: 2.2
     },
   ];
