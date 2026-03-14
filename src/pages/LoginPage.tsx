@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const VALID_USERNAME = 'Geleluu0412';
-const VALID_PASSWORD = '06042025';
+const VALID_USERNAME = 'SunuSibi';
+const VALID_PASSWORD = 'Sinu2428';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');

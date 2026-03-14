@@ -10,7 +10,9 @@ const PhotoSlider = () => {
     "/2.jpg",
     "/3.jpg",
     "/4.jpg",
-    "/5.jpg"
+    "/5.jpg",
+    "/6.jpg",
+    "/7.jpg",
   ];
 
 
@@ -19,7 +21,9 @@ const PhotoSlider = () => {
     "That magical sunset",
     "When you made me laugh so hard",
     "Our perfect day",
-    "The moment I knew you were the one"
+    "The moment I knew you were the one",
+    "Hugged after a long time",
+    "Temple Day"
   ];
 
   useEffect(() => {

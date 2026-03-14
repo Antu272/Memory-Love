@@ -5,35 +5,65 @@ const AnimatedImageGrid: React.FC = () => {
   
   const images = [
     {
-      src: "/1.jpg",
+      src: "/8.jpg",
       caption: "You Made My Dreams Come True",
       delay: 0
     },
     {
-      src: "/2.jpg",
+      src: "/9.jpg",
       caption: "Every Moment With You",
       delay: 0.2
     },
     {
-      src: "/3.jpg",
+      src: "/10.jpg",
       caption: "Forever In My Heart",
       delay: 0.4
     },
     {
-      src: "/4.jpg",
+      src: "/11.jpg",
       caption: "You Are My Everything",
       delay: 0.6
     },
     {
-      src: "/5.jpg",
+      src: "/12.jpg",
       caption: "Love Beyond Words",
       delay: 0.8
     },
     {
-      src: "/1.jpg",
+      src: "/13.jpg",
       caption: "Beautiful Like You",
       delay: 1.0
-    }
+    },
+    {
+      src: "/14.jpg",
+      caption: "Beautiful Like You",
+      delay: 1.2
+    },
+    {
+      src: "/15.jpg",
+      caption: "Beautiful Like You",
+      delay: 1.4
+    },
+    {
+      src: "/16.jpg",
+      caption: "Beautiful Like You",
+      delay: 1.6
+    },
+    {
+      src: "/17.jpg",
+      caption: "Beautiful Like You",
+      delay: 1.8
+    },
+    {
+      src: "/18.jpg",
+      caption: "Beautiful Like You",
+      delay: 2.0
+    },
+    {
+      src: "/19.jpg",
+      caption: "Beautiful Like You",
+      delay: 2.2
+    },
   ];
 
   const decorativeElements = [

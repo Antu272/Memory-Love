@@ -55,28 +55,22 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
         <div className={`handwritten-letter ${showLetter ? "show" : ""}`}>
           <div className="letter-paper">
             <div className="letter-header">
-              <h2 className="handwritten-title">My Dearest Love</h2>
+              <h2 className="handwritten-title">My Dearest Babee.... ❤️</h2>
             </div>
             <div className="handwritten-content">
               <p className="handwritten-line">
-                Every moment with you feels like magic...
+                Ninte oppamulla oro nimishavum oru magic pole aanu enikku thonnunnathu. Ninte presence ente darkest days polum light aakkunnu. Ninte chiriyum, ninte voice um ente heart il oru beautiful melody pole aanu.
               </p>
               <p className="handwritten-line">
-                You are the light that brightens my darkest days,
+                Nee ente life il vannathinu shesham, ellam kurachu koodi beautiful ayi maari. Njan orikkalum ezhunelkkenda oru swapnam pole aanu nee — ente happiest place.
               </p>
               <p className="handwritten-line">
-                the melody that makes my heart sing,
-              </p>
-              <p className="handwritten-line">
-                and the dream I never want to wake up from.
-              </p>
-              <p className="handwritten-line">
-                I love you more than words can express.
+                Words kondu parayan pattathra njan ninne snehikkunnu. Endhum ninakkullathanu ente heart.
               </p>
               <div className="handwritten-signature">
-                Forever yours,
+                Forever yours…
                 <br />
-                <span className="signature-name">Your Love</span>
+                <span className="signature-name">Your Sibii... ❤️</span>
               </div>
             </div>
           </div>
