@@ -1352,7 +1352,8 @@ All colors MUST be HSL.
   }
   
   .grid-image {
-    height: 200px;
+    aspect-ratio: 3/4;
+    height: auto;
   }
   
   .romantic-message {
@@ -1443,7 +1444,8 @@ All colors MUST be HSL.
   }
   
   .grid-image {
-    height: 180px;
+    aspect-ratio: 3/4;
+    height: auto;
   }
   
   .romantic-message {
