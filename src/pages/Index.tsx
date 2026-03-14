@@ -19,40 +19,12 @@ const Index = () => {
   const [musicPlaying, setMusicPlaying] = useState(false);
 
   useEffect(() => {
-    // Auto-play background music
-    const audio = new Audio();
-    audio.src = "https://www.soundjay.com/misc/sounds/romantic-music.mp3";
-    audio.loop = true;
-    audio.volume = 0.3;
-    
-    // Try to play music (modern browsers may block autoplay)
-    const playMusic = async () => {
-      try {
-        await audio.play();
-        setMusicPlaying(true);
-      } catch (error) {
-        console.log("Autoplay blocked, user interaction required");
-      }
-    };
-    
-    playMusic();
-
-    return () => {
-      audio.pause();
-    };
-  }, []);
-
-  const handleMusicToggle = () => {
+    // Attempt to play existing audio element if it exists
     const audio = document.querySelector('audio');
     if (audio) {
-      if (musicPlaying) {
-        audio.pause();
-      } else {
-        audio.play();
-      }
-      setMusicPlaying(!musicPlaying);
+      audio.volume = 0.5;
     }
-  };
+  }, []);
 
   const handleEnterSite = () => {
     setShowIntro(false);
