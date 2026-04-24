@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -297,6 +296,13 @@ All colors MUST be HSL.
   text-shadow: 0 0 20px rgba(255, 107, 157, 0.8);
   animation: floatText 6s ease-in-out infinite;
   opacity: 0;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 640px) {
+  .floating-message {
+    font-size: 32px; /* increase size on small screens */
+  }
 }
 
 @keyframes floatText {
