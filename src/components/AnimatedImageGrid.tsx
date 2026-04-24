@@ -64,6 +64,36 @@ const AnimatedImageGrid: React.FC = () => {
       caption: "You Complete Me",
       delay: 2.2
     },
+    {
+      src: "/20.jpg",
+      caption: "Unbreakable",
+      delay: 2.4
+    },
+    {
+      src: "/21.jpg",
+      caption: "You Made My Dreams Come True",
+      delay: 2.6
+    },
+    {
+      src: "/22.jpg",
+      caption: "Love Never Dies",
+      delay: 2.8
+    },
+    {
+      src: "/23.jpg",
+      caption: "You're my greatest adventure",  
+      delay: 3.0
+    },
+    {
+      src: "/24.jpg",
+      caption: "You & I",
+      delay: 3.2
+    },
+    {
+      src: "/25.jpg",
+      caption: "Happiest Memories",
+      delay: 3.4
+    },
   ];
 
   const decorativeElements = [
